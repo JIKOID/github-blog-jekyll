@@ -19,8 +19,8 @@ locale                   : "ko-KR"
 title                    : "제이로그"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "남제이"
-description              : "데이터 엔지니어"
+name                     : "Jay Nam"
+description              : "어제보다 더 나은 오늘이 되고 싶은"
 url                      : "https://jikoid.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/" # the subpath of your site, e.g. "/blog"
 repository               : "JIKOID/jikoid.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -107,7 +107,7 @@ author:
   name             : "남제이"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Engineer"
-  location         : "Somewhere"
+  location         : "Seoul, South Korea"
   email            :
   links:
     - label: "Email"
