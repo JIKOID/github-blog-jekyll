@@ -8,3 +8,22 @@ main:
     url: /year-archive/
   - title: "Tags"
     url: /tags/
+
+# category links
+categories:
+  - title: "Category"
+    children:
+      - title: "Python"
+        url: /categories/python/
+#      - title: "C++"
+#        url: /categories/c++/
+#      - title: "Java"
+#        url: /categories/java/
+#      - title: "Javascript"
+#        url: /categories/javascript/
+#      - title: "Algorithm"
+#        url: /categories/algorithm/
+#      - title: "Database"
+#        url: /categories/database/
+#      - title: "Etc"
+#        url: /categories/etc/
