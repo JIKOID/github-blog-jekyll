@@ -13,17 +13,15 @@ main:
 categories:
   - title: "Category"
     children:
-      - title: "Python"
-        url: /categories/python/
-#      - title: "C++"
-#        url: /categories/c++/
-#      - title: "Java"
-#        url: /categories/java/
-#      - title: "Javascript"
-#        url: /categories/javascript/
-#      - title: "Algorithm"
-#        url: /categories/algorithm/
-#      - title: "Database"
-#        url: /categories/database/
-#      - title: "Etc"
-#        url: /categories/etc/
+      - title: "algorithm_concept"
+        url: /categories/algorithm/concept/
+
+      - title: "cpp"
+        url: /categories/programming/cpp/
+      - title: "Java"
+        url: /categories/programming/java/
+      - title: "python"
+        url: /categories/programming/python/
+
+      - title : "Blog"
+        url: /categories/blog/
