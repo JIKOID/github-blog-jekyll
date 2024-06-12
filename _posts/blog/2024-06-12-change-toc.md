@@ -6,6 +6,7 @@ layout: single
 author_profile: true
 toc: true
 toc_sticky: true
+show_date: true
 ---
 
 이번에는 Github 블로그에 toc를 변경해보려고 한다.  
