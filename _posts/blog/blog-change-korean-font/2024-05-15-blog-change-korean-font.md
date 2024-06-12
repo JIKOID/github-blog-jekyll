@@ -23,16 +23,16 @@ https://fonts.google.com/?subset=korean&noto.script=Kore
 
 원하는 폰트를 위의 사이트에서 검색하고나서 클릭해서 상세 정보를 확인해보면 아래의 사진과 같이 상단에 `Get font` 가 보인다.
 
-![](../images/image.png)
+![](image.png)
 
 
 `Get font` 를 클릭해서 들어가서 `Get embed code` 를 누른다.
 
-<img src="images/image.png">
+![](image2.png)
 
 다음으로 Web Tab 에서 Web 과 @import 선택을 할 수 있는데 @import 를 선택한다.
 
-![](../images/image3.png)
+![](image3.png)
 
 그럼 @import 할 수 있는 코드를 제공해주는데 해당 코드를 복사한다.
 
