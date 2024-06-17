@@ -11,8 +11,14 @@
            <!--전체 글 수-->
            <span class="nav__sub-title">전체 포스트 ({{sum}})</span>
       </li>
+
+      <!-- 알고리즘 -->
       <li>
-        <span class="nav__sub-title">알고리즘</span>
+        {% for category in site.categories %}
+            {% if category[0] == "algorithm" %}
+                <a href="/categories/algorithm/" class=""><span class="nav__sub-title">알고리즘 ({{category[1].size}})</span></a>
+            {% endif %}
+        {% endfor %}
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "algorithm_concept" %}
@@ -21,39 +27,58 @@
                 {% endfor %}
             </ul>
       </li>
+
+      <!-- 프로그래밍 언어 -->
       <li>
-        <span class="nav__sub-title">프로그래밍 언어</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "cpp" %}
-                        <li><a href="/categories/programming/cpp" class="">C++ ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "java" %}
-                        <li><a href="/categories/programming/java" class="">- Java ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "python" %}
-                        <li><a href="/categories/programming/python" class="">- Python ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
+        {% for category in site.categories %}
+            {% if category[0] == "programming" %}
+                <a href="/categories/programming/" class=""><span class="nav__sub-title">프로그래밍 언어 ({{category[1].size}})</span></a>
+            {% endif %}
+        {% endfor %}
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "cpp" %}
+                    <li><a href="/categories/programming/cpp" class="">C++ ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "java" %}
+                    <li><a href="/categories/programming/java" class="">- Java ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "python" %}
+                    <li><a href="/categories/programming/python" class="">- Python ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
       </li>
+
+      <!-- 블로그 페이지 -->
       <li>
-        <span class="nav__sub-title">블로그</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "blog" %}
-                        <li><a href="/categories/blog" class="">- github jekyll ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
+        {% for category in site.categories %}
+            {% if category[0] == "blog" %}
+                <a href="/categories/blog/" class=""><span class="nav__sub-title">블로그 ({{category[1].size}})</span></a>
+            {% endif %}
+        {% endfor %}
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "github_jekyll" %}
+                    <li><a href="/categories/blog/jekyll/" class="">- github jekyll ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "github_gatsby" %}
+                    <li><a href="/categories/blog/gatsby/" class="">- github gatsby ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
       </li>
   </ul>
 </nav>

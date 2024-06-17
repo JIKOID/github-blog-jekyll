@@ -1,7 +1,7 @@
 ---
 title: "Github 블로그 시간 표시하기 (Minimal Mistakes)"
 tags: github minimal_mistakes datetime
-categories: blog
+categories: blog github_jekyll
 layout: single
 author_profile: true
 toc: true
@@ -66,7 +66,7 @@ document, 즉 포스트 안에 show_date 옵션이 true 이면 날짜를 보여�
 ---
 title: "Github 블로그 시간 표시하기 (Minimal Mistakes)"
 tags: github minimal_mistakes datetime
-categories: blog
+categories: github_jekyll
 layout: single
 author_profile: true
 toc: true

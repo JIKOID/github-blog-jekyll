@@ -1,7 +1,7 @@
 ---
 title: "Github 블로그 한글 폰트 적용하기 (Minimal Mistakes)"
 tags: github minimal_mistakes
-categories: blog
+categories: blog github_jekyll
 layout: single
 author_profile: true
 toc: true

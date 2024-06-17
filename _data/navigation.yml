@@ -11,15 +11,26 @@ main:
 categories:
   - title: "Category"
     children:
-      - title: "algorithm_concept"
-        url: /categories/algorithm/concept/
+      - title: "algorithm"
+        url: /categories/algorithm/
+        children:
+          - title: "algorithm_concept"
+            url: /categories/algorithm/concept/
 
-      - title: "cpp"
-        url: /categories/programming/cpp/
-      - title: "Java"
-        url: /categories/programming/java/
-      - title: "python"
-        url: /categories/programming/python/
+      - title: "programming"
+        url: /categories/programming/
+        children:
+          - title: "cpp"
+            url: /categories/programming/cpp/
+          - title: "java"
+            url: /categories/programming/java/
+          - title: "python"
+            url: /categories/programming/python/
 
-      - title : "Blog"
+      - title: "blog"
         url: /categories/blog/
+        children:
+          - title: "github_jekyll"
+            url: /categories/blog/jekyll/
+          - title: "github_gatsby"
+            url: /categories/blog/gatsby/

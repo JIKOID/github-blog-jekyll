@@ -1,10 +1,10 @@
 ---
-title: "Python"
+title: "알고리즘"
 layout: archive
-permalink: /categories/programming/python/
+permalink: /categories/algorithm
 author_profile: true
 sidebar_category: true
 ---
 
-{% assign posts = site.categories.python %}
+{% assign posts = site.categories.algorithm %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

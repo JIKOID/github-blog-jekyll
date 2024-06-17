@@ -1,7 +1,7 @@
 ---
 title: "Github 블로그 폰트 사이즈 변경하기 (Minimal Mistakes)"
 tags: github minimal_mistakes
-categories: blog
+categories: blog github_jekyll
 layout: single
 author_profile: true
 toc: true
